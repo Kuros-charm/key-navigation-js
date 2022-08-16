@@ -92,8 +92,7 @@ addEvent({
             e.preventDefault();
             e.stopImmediatePropagation();
         }
-        e.preventDefault();
-        e.stopImmediatePropagation();
+
 
 
         
