@@ -78,7 +78,7 @@ addEvent({
                 if (Math.abs(newSv) <  3){ // buffer for case like border
                     newSv = 0
                 }
-                sortValue = sortValue || newSv // find first sv compared not to 0
+                sortValue = sortValue || newSv // find first sv compared not to 0, so result will sort by sortingValues[0], then sortingValues[1], etc.
             });
 
             if (sortValue < 0){
